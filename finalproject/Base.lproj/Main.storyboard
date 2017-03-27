@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="HU8-Oj-f1D">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--צורק קשר-->
+        <scene sceneID="Ruv-r8-TxJ">
+            <objects>
+                <viewController id="WBo-6i-StG" customClass="ContactUsViewController" customModule="finalproject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NxX-2j-OyR"/>
+                        <viewControllerLayoutGuide type="bottom" id="WZz-Ab-nN5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="emH-WE-gqV">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="שם " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KUf-8M-qlm">
+                                <rect key="frame" x="333.5" y="47" width="26.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="רשום את שמך" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fEy-fe-LL4">
+                                <rect key="frame" x="241" y="76" width="118" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="UHj-Kp-YyN"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="אימייל" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N23-qg-7Nc">
+                                <rect key="frame" x="317" y="123" width="42" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="רשום את המייל שלך" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wos-Gz-Aqq">
+                                <rect key="frame" x="230" y="150" width="129" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="רשום את מספר הפל שלך" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iCw-3V-Dsl">
+                                <rect key="frame" x="202" y="240" width="158" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="מספר טלפון" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3c-b2-8J1">
+                                <rect key="frame" x="248" y="202" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="הודעה" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwp-K6-PQS">
+                                <rect key="frame" x="289" y="308" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="כתוב לכאן את הודעתך/הערתך" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="YM6-gV-ZFD">
+                                <rect key="frame" x="104" y="364" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bk1-de-tpX">
+                                <rect key="frame" x="183" y="500" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="שלח"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KUf-8M-qlm" firstAttribute="top" secondItem="NxX-2j-OyR" secondAttribute="bottom" constant="47" id="AUQ-iR-umG"/>
+                            <constraint firstAttribute="trailing" secondItem="KUf-8M-qlm" secondAttribute="trailing" constant="15" id="XPJ-Os-AcV"/>
+                            <constraint firstItem="fEy-fe-LL4" firstAttribute="top" secondItem="KUf-8M-qlm" secondAttribute="bottom" constant="8" id="irB-Lb-f1Z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fEy-fe-LL4" secondAttribute="trailing" id="zXu-Gi-oDv"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="צורק קשר" image="contactAsIcon.png" id="iqC-uK-vCF" userLabel="Item 3"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y2e-x1-4et" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="493.60000000000002" y="705.69715142428788"/>
+        </scene>
+        <!--מפה הגעה-->
+        <scene sceneID="bTw-dM-x01">
+            <objects>
+                <viewController id="Ncx-Hc-9jf" customClass="MapViewController" customModule="finalproject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WLD-2b-85d"/>
+                        <viewControllerLayoutGuide type="bottom" id="PiR-OI-MoV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cm9-tY-c0U">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="UeH-iI-x2g">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PiR-OI-MoV" firstAttribute="top" secondItem="UeH-iI-x2g" secondAttribute="bottom" id="c8m-Wn-IXL"/>
+                            <constraint firstItem="UeH-iI-x2g" firstAttribute="leading" secondItem="cm9-tY-c0U" secondAttribute="leading" id="cSE-e2-OYW"/>
+                            <constraint firstAttribute="trailing" secondItem="UeH-iI-x2g" secondAttribute="trailing" id="sGj-Rh-dXm"/>
+                            <constraint firstItem="UeH-iI-x2g" firstAttribute="top" secondItem="WLD-2b-85d" secondAttribute="bottom" id="usq-MW-tbG"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="מפה הגעה" image="newMapIcon.png" id="tXC-oA-Po8"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IiY-PW-A9R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1144.8" y="705.69715142428788"/>
+        </scene>
+        <!--אודות-->
+        <scene sceneID="hFM-XU-fM3">
+            <objects>
+                <viewController id="y2D-A9-O7r" customClass="AboutUsViewController" customModule="finalproject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y1q-UC-M1n"/>
+                        <viewControllerLayoutGuide type="bottom" id="7EB-YY-eCN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fbp-jz-gkR">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="hdr-1A-g2A">
+                                <rect key="frame" x="24" y="20" width="327" height="511"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7EB-YY-eCN" firstAttribute="top" secondItem="hdr-1A-g2A" secondAttribute="bottom" constant="23" id="E2q-t3-rq9"/>
+                            <constraint firstItem="hdr-1A-g2A" firstAttribute="leading" secondItem="fbp-jz-gkR" secondAttribute="leadingMargin" constant="8" id="MYT-cS-EFe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hdr-1A-g2A" secondAttribute="trailing" constant="8" id="Pkc-g8-jIF"/>
+                            <constraint firstItem="hdr-1A-g2A" firstAttribute="top" secondItem="Y1q-UC-M1n" secondAttribute="bottom" constant="20" id="Q2Q-hH-zUy"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="אודות" image="AboutAsIcon.png" id="iYM-2r-80R"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZQR-yR-pkK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-170.40000000000001" y="705.69715142428788"/>
+        </scene>
+        <!--דף הבית-->
+        <scene sceneID="DEK-Sc-F72">
+            <objects>
+                <viewController id="CnL-3x-Bat" customClass="HomeViewController" customModule="finalproject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ByR-Aq-qFr"/>
+                        <viewControllerLayoutGuide type="bottom" id="vv0-tf-lpN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sGo-19-Dyf">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nwn-dZ-sTT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QSu-y4-2Kw">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="180"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="school.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Xrn-oK-dZg">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="180"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Xrn-oK-dZg" secondAttribute="trailing" id="LiQ-ms-Vnu"/>
+                                            <constraint firstItem="Xrn-oK-dZg" firstAttribute="top" secondItem="QSu-y4-2Kw" secondAttribute="top" id="cyd-aq-KV7"/>
+                                            <constraint firstItem="Xrn-oK-dZg" firstAttribute="leading" secondItem="QSu-y4-2Kw" secondAttribute="leading" id="eWr-GQ-UE5"/>
+                                            <constraint firstAttribute="bottom" secondItem="Xrn-oK-dZg" secondAttribute="bottom" id="xNu-o7-y8q"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="QSu-y4-2Kw" firstAttribute="centerX" secondItem="nwn-dZ-sTT" secondAttribute="centerX" id="1eE-QH-ywG"/>
+                                    <constraint firstItem="QSu-y4-2Kw" firstAttribute="leading" secondItem="nwn-dZ-sTT" secondAttribute="leading" id="5yU-gr-ZhU"/>
+                                    <constraint firstAttribute="trailing" secondItem="QSu-y4-2Kw" secondAttribute="trailing" id="g4r-es-ieZ"/>
+                                    <constraint firstItem="QSu-y4-2Kw" firstAttribute="top" secondItem="nwn-dZ-sTT" secondAttribute="top" id="i3E-Ju-GbM"/>
+                                    <constraint firstAttribute="bottom" secondItem="QSu-y4-2Kw" secondAttribute="bottom" id="k1i-ge-zj3"/>
+                                    <constraint firstItem="QSu-y4-2Kw" firstAttribute="centerY" secondItem="nwn-dZ-sTT" secondAttribute="centerY" id="pXE-U6-9zK"/>
+                                </constraints>
+                            </scrollView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="Zdv-65-7f7">
+                                <rect key="frame" x="24" y="199" width="327" height="331"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Zdv-65-7f7" firstAttribute="leading" secondItem="sGo-19-Dyf" secondAttribute="leadingMargin" constant="8" id="EBg-q8-9iE"/>
+                            <constraint firstItem="vv0-tf-lpN" firstAttribute="top" secondItem="Zdv-65-7f7" secondAttribute="bottom" constant="24" id="Fms-PU-9lw"/>
+                            <constraint firstItem="nwn-dZ-sTT" firstAttribute="leading" secondItem="sGo-19-Dyf" secondAttribute="leading" id="HnT-JW-bLH"/>
+                            <constraint firstAttribute="trailing" secondItem="nwn-dZ-sTT" secondAttribute="trailing" id="MhB-Ov-Hvy"/>
+                            <constraint firstItem="nwn-dZ-sTT" firstAttribute="height" secondItem="sGo-19-Dyf" secondAttribute="height" multiplier="0.3" id="fuZ-oY-UWl"/>
+                            <constraint firstItem="nwn-dZ-sTT" firstAttribute="top" secondItem="ByR-Aq-qFr" secondAttribute="bottom" id="o82-CT-6WG"/>
+                            <constraint firstItem="Zdv-65-7f7" firstAttribute="top" secondItem="nwn-dZ-sTT" secondAttribute="bottom" constant="18" id="q8Y-pb-Yec"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zdv-65-7f7" secondAttribute="trailing" constant="8" id="xaZ-cL-t0B"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="דף הבית" image="homeIcon.png" id="Wq6-z2-8kj"/>
+                    <connections>
+                        <outlet property="schoolUpdatesTxtView" destination="Zdv-65-7f7" id="I4d-H9-vpr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Va8-sy-YRo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-863.20000000000005" y="705.69715142428788"/>
+        </scene>
+        <!--בית הספר שלי-->
+        <scene sceneID="cEd-8H-sUK">
+            <objects>
+                <tabBarController id="Bwg-Oe-rfK" customClass="MainTabController" customModule="finalproject" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="בית הספר שלי" id="6Re-XK-gGa">
+                        <barButtonItem key="rightBarButtonItem" image="signIn.png" id="hHy-L3-Pn1"/>
+                    </navigationItem>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="to8-Eo-0Bq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CnL-3x-Bat" kind="relationship" relationship="viewControllers" id="RXz-fZ-gLs"/>
+                        <segue destination="y2D-A9-O7r" kind="relationship" relationship="viewControllers" id="4C6-hR-4Hv"/>
+                        <segue destination="WBo-6i-StG" kind="relationship" relationship="viewControllers" id="Npj-2g-CYT"/>
+                        <segue destination="Ncx-Hc-9jf" kind="relationship" relationship="viewControllers" id="iuy-Pi-sD6"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IVB-Cv-qfZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="175" y="-99"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="f0z-bK-pgy">
+            <objects>
+                <navigationController id="HU8-Oj-f1D" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="rvC-3T-UYO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Bwg-Oe-rfK" kind="relationship" relationship="rootViewController" id="3pi-6K-d1k"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DEy-bX-liA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-620" y="-99"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AboutAsIcon.png" width="33" height="33"/>
+        <image name="contactAsIcon.png" width="33" height="33"/>
+        <image name="homeIcon.png" width="33" height="33"/>
+        <image name="newMapIcon.png" width="33" height="33"/>
+        <image name="school.jpg" width="2500" height="1243"/>
+        <image name="signIn.png" width="33" height="32"/>
+    </resources>
+</document>
